@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+:root{
+    --color-amarillo:#EAC926;
+    --color-Azul: #03264C;
+    --color-Celeste: #1259c3;
+    --color-Gris-oscuro: #666;
+    --color-Gris-claro: #ebebeb;
+    --color-Verde: #39b54a;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+

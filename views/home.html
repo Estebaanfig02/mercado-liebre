@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://kit.fontawesome.com/ebcb4d12ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <head>
-        <img src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
-        <p>lugar para poner barra de busqueda</p>
-        <p>Compra en cuotas y sin tarjeta de credito</p>
-        <nav>
+    <header class="header">
+        <img id="header-logo"src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
+        <p id="header-barra-busqueda">lugar para poner barra de busqueda<i class="fa-solid fa-magnifying-glass"></i></p>
+        <p id="header-info"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</p>
+        <nav id="nav-pag">
             <ul>
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tienda Oficiales</a></li>
                 <li><a href="">Vender</a></li>
                 <li><a href="">Ayuda</a></li>
             </ul>
+        </nav>
+        <nav id="nav-login">
             <ul>
-                <li><a href="">Crear tu cuenta</a></li>
-                <li><a href="">Ingresa</a></li>
-                <li><a href="">Mis compras</a></li>
+                <li><a href="">Crear tu cuenta <i class="fa-solid fa-id-card"></i></a></li>
+                <li><a href="">Ingresa <i class="fa-solid fa-right-to-bracket"></i> </a></li>
+                <li><a href="">Mis compras<i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
         </nav>
-    </head>
-    <section>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+            </div>
+    </header>
+    <main>
+    <section id="main-banner-home">
         <img src="\img\img-home-banner.jpg" alt="banner">
     </section>
-    <section>
+    <section class="main-list-articles-home">
         <article>
             <img src="\img\img-cafetera-moulinex.jpg" alt="img-cafetera-moulinex">
             <p>$6.770</p>
@@ -53,19 +61,23 @@
             <p>SmartTv Samsung 43"</p>
         </article>
     </section>
+    </main>
     <footer>
-        <ul>
-            <li>Pagá con tarjeta o en efectivo
+        <div>
+        <i class="fa-solid fa-credit-card" ></i>
+    </div>    
+        <p>Pagá con tarjeta o en efectivo
                 Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                puntos de pago. ¡Y siempre es seguro!</li>
-            <li>Envío gratis desde $ 2.500
+                puntos de pago. ¡Y siempre es seguro!</p>
+                <div><i class="fa-solid fa-gift"></i></div>
+            <p>Envío gratis desde $ 2.500
                 Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                productos. Es un beneficio de Mercado Puntos.</li>
-            <li>Seguridad, de principio a fin
+                productos. Es un beneficio de Mercado Puntos.</p>
+            <div><i class="fa-solid fa-user-shield"></i></div>
+                <p>Seguridad, de principio a fin
                 ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                porque estás siempre protegid@.</li>
-            <li>Copyright © 1999-2020 MercadoLiebre S.R.L.</li>
-        </ul>
+                porque estás siempre protegid@.</p>
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
 </html>
