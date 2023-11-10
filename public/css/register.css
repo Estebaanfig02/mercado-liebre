@@ -1,0 +1,127 @@
+.register-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-main form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.register-main-div-datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.register-main-div-datos input {
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    padding: 2px;
+    border-radius: 4px;
+    
+}
+.register-main-div-date_year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.register-main-div-date_year input{
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    padding: 2px;
+    border-radius: 4px;
+}
+.register-main-div--radio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.register-main-div--radio h3{
+    margin-left: 28%;
+
+}
+.register-main-div--radio input,label{
+    margin: 2% 4%;
+}
+.register-main-div--checkbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+.register-main-div--checkbox h3 {
+    margin: 0px auto;
+}
+.register-main-div--checkbox div input{
+    margin-left: 18px;
+
+}
+.register-main-div-passwords{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.register-main-div-passwords input {
+    width: 80%;
+    height: 30px;
+    border: 0px;
+    padding: 2px;
+    border-radius: 4px;
+}
+.register-main-div-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.register-main-div-buttons button{
+    width: 40%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--color-Celeste);
+}
+@media (min-width: 1024px){
+    .register-main form h3{
+        font-size: 24px;
+    }
+    .register-main form{
+        width: 600px;
+    }
+    .register-main-div-datos{
+        width: 100%;
+    }
+    .register-main-div-datos input{
+        height: 40px;
+        font-size: 14px;
+    }
+    .register-main-div-date_year{
+        
+    }
+    .register-main-div-date_year input{
+        height: 40px;
+        font-size: 14px;
+    }
+    .register-main-div--radio h3{
+    margin: 0px 35%;
+    }
+    .register-main-div-passwords{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .register-main-div-passwords input{
+        height: 40px;
+
+    }       
+    .register-main-div-buttons{
+    }
+    }
+
