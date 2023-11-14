@@ -3,7 +3,7 @@ body{
 }
 .main-list-articles-home i{
     padding: 8px;
-    border-radius: 50%;
+    border-radius:  48%;
     border: 1px solid #48db4a;
     margin: 5px;
 }
@@ -24,11 +24,20 @@ body{
 
 }
 .main-list-articles-home article{
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
     margin: 5%;
+    
+}
+.main-list-articles-home article i{
+    transition: rotate();
+    transition-duration: 450ms;
+}
+.main-list-articles-home article:hover i{
+    rotate: -90deg;
 }
 .home__main_section_precio{
     order: 1;
@@ -44,13 +53,18 @@ body{
     width: 33%;
     padding: 4% 2%;
 }
-.home__main_section_producto{
+#home__main_section_name_producto{
+    visibility: hidden;
     font-size: 1em;
     width: 100%;
     order: 4;
     margin: 5%;
     padding: 0 10%;
-
+    transition: visibility;
+    transition-duration: 450ms;
+}
+.main-list-articles-home article:hover #home__main_section_name_producto{
+    visibility: visible;
 }
 .logo_envios{
     order: 3;
@@ -58,17 +72,21 @@ body{
     padding-left: 10%;
 }
 .logo_envios i{
-
 }
+
 @media (min-width: 426px){
     .main-list-articles-home article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }    
+        transition: box-shadow;
+    }  
+    .main-list-articles-home article:hover{
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       transition-duration: 450ms;
+    }  
     .main-list-articles-home{
         font-size: 1.5em
     }
 }
-@media (min-width: 769px){ /*Desktop*/
+@media (min-width: 1024px){ /*Desktop*/
     .main-list-articles-home{
         display: flex;
         flex-wrap: wrap;

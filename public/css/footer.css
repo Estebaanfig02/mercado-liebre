@@ -1,5 +1,10 @@
 footer{
     background-color: white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div{
 }
 footer p{
     margin: 2% 30%;
@@ -15,3 +20,24 @@ footer i{
     font-size: 30px;
     
 }
+@media (min-width: 1024px){ /*Desktop*/
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    footer div{
+        height: 200px;
+        width: 33.3%;
+    }
+    #Copyright-div-footer{
+        height: 50px;
+    }
+    #Copyright-div-footer p{
+        width: 100%;
+    }
+
+
+}
+

@@ -24,6 +24,11 @@
     color: white;
     font-weight: bold;
     background-color: var(--color-Celeste);
+    transition: background-color;
+    transition-duration: 450ms;
+}
+.login-main-form button:hover{
+    background-color: #0022AA;
 }
 
 @media (min-width: 1024px){

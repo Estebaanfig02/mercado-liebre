@@ -82,12 +82,21 @@
     margin-bottom: 10%;
 }
 .register-main-div-buttons button{
+    cursor: pointer;
     width: 40%;
     height: 30px;
     color: white;
     font-weight: bold;
+    border: 0px;
+    border-radius: 8px;
     background-color: var(--color-Celeste);
+    transition: background-color;
+    transition-duration: 0s;
 }
+.register-main-div-buttons button:hover{
+    background-color: #0022AA;
+}
+
 @media (min-width: 1024px){
     .register-main form h3{
         font-size: 24px;
