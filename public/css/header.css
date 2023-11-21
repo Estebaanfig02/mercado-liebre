@@ -47,27 +47,42 @@
 }
 #nav-login li{
 }
-@media (min-width: 320px){
+@media (min-width: 768px){
+    .burger-menu{
+        display: none   ;
+    }
+    #header-info{
+        text-align: center;
+        width: 30vw;
+        font-size: 1em;
+    }
     #nav-login{
-        display: none;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 10px
+    }
+    #nav-login li{
+        display: inline;
+        margin: 0px 1em;
+        font-size: 14px;
     }
     #nav-pag{
-        display: none;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin-bottom: 10px;
     }
-}
-
-@media (min-width: 426px){
-    #header-info{
-        font-size: 16px;
+    #nav-pag li{
+        display: inline;
+        margin: 0px 1em;
+        font-size: 14px;
     }
     #header-barra-busqueda{
-        font-size: 16px;
-        padding: 2px;
     }
-
 }
 
-@media (min-width: 769px){ /*Desktop*/
+@media (min-width: 1024px){ /*Desktop*/
     .burger-menu{
         display: none   ;
     }
